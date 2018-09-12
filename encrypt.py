@@ -1,10 +1,13 @@
+#!/usr/bin/python3.6
+# -*- coding: utf-8 -*-
+
 import hmac
 import hashlib
 import base64
 import time
 import random
 
-class decode:
+class Decode:
     def __init__(self):
         self.keyset = []
         with open("APPID.txt","rb") as f1:
